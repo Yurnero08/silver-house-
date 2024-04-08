@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+nav {
+    padding: 50px 0 37px 0;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    color:#8C8A8A;
+    font-size: 18px;
+    margin: 10px 15px;
+    display: inline-block;
+}
+
+header .content {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+main .content {
+    background: #F0F0F0;
+    padding: 50px 95px 51px 40px;
+    max-width: 730px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+main h2 {
+    color: #4581B7 ;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+main p {
+    color: #808080;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.wrapper {
+    background: #f0f0f0;
+    padding: 50px 24px 51px 40px;
+    max-width: 350px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.wrapper a{
+    display: block;
+    color: #808080;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.wrapper .phone {
+    margin-top: 54px;
+    margin-bottom: 27px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer {
+    background: #F0F0F0;
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 40px;
+}
+
+footer .num {
+    color: #808080;
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+footer .num p {
+    margin-bottom:11px ;
+}
+
+.num .phone1 {
+    color: #808080;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+footer .content .num {
+    text-align: end;
+
+}
